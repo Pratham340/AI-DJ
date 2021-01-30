@@ -1,0 +1,196 @@
+.heading{
+    font-size: 14.4px;
+    width:100%;
+    margin:0px;
+}
+.note{
+    font-size:14.4px;
+    color:white;
+}
+body{
+    background-size: cover;
+    font-family:'Monoton', cursive;
+}
+.div_speed{
+    float:left;
+}
+.div_speed_img{
+    width:200px;
+}
+#speed{
+    font-size:23px;
+    margin:15px;
+}
+.div_volume{
+    float:right;
+}
+.div_volume_img{
+    width:200px;
+    border-radius: 100px;
+}
+#volume{
+    font-size:20px;
+    margin:15px;
+}
+.copy_right_footer{
+	position: fixed;
+	color: black;
+	bottom: 0;
+	width:100%;
+	background: #FF4E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+line-height: 3;
+text-align: center;
+}
+.loader-wrapper{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #FC354C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	.loader{
+		display:inline-block;
+		width: 30px;
+		height: 30px;
+		position: relative;
+		border:4px solid red;
+		animation: loader 2s infinite ease;
+	}
+	.loader-inner {
+		vertical-align: top;
+		display: inline-block;
+		width: 100%;
+		background-color: red;
+		animation: loader-inner 2s infinite ease-in;
+	  }
+	
+	@keyframes loader {
+		0% { transform: rotate(0deg);}
+		25% { transform: rotate(180deg);}
+		50% { transform: rotate(180deg);}
+		75% { transform: rotate(360deg);}
+		100% { transform: rotate(360deg);}
+	  }
+	  
+	  @keyframes loader-inner {
+		0% { height: 0%;}
+		25% { height: 0%;}
+		50% { height: 100%;}
+		75% { height: 100%;}
+		100% { height: 0%;}
+	  }
+	  #text{
+		border-radius:20px;
+	  }
+	  #l1{
+		color:white;
+		font-size:20px;
+	  }
+	  html, body
+	  {
+	  height: 100%;
+	  margin: 0;
+	  }
+	  
+	  .header
+	  {
+	  color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	  }
+	  .header img
+	  {
+	  width: 80px;margin-left: -15px;
+	  }
+	  
+	  .login_div
+	  {
+	  background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+	  }
+	  
+	  .logo
+	  {
+	  width: 80px;margin-top: 30px;border-radius: 40px;
+	  }
+	  
+	  #login_button
+	  {
+	  width: 80%;border-radius: 15px;
+	  }
+	  
+	  .room_name
+	  {
+	  cursor: pointer;
+	  font-size: 20px;
+	  }
+	  
+	  
+	  #logout
+	  {
+	  font-size: 20px; float: right;
+	  }
+	  
+	  
+	  #output
+	  {
+	  padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+	  }
+	  
+	  .input_div_room_page
+	  {
+	  width: 80%;
+	  }
+	  
+	  .input_div label
+	  {
+	  color: white;font-size: 20px;
+	  }
+	  
+	  
+	  .input_div_message_page
+	  {
+	  position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+	  }
+	  .input_div_message_page label
+	  {
+	  color: black;
+	  }
+	  .input_div_message_page #msg
+	  {
+	  width: 80%;
+	  }
+	  .input_div_message_page button
+	  {
+	  margin-top: 15px;
+	  width: 50%; 
+	  }
+	  .color_white
+	  {
+	  color: white
+	  }
+	  
+	  .user_tick
+	  {
+	  width:20px;
+	  }
+	  .message_h4
+	  {
+	  padding-left:5px;color:grey;
+	  }
+	  .play_button
+  {
+  	width: 130px;
+  	font-size: 25px;
+  }
+    canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+  }
